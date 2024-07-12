@@ -1,0 +1,168 @@
+import {
+  httpAllDealingCompanySelect,
+  httpRoleDeptUserSelect,
+  httpDeptSelect,
+  httpLogisticsCustomerSelect,
+} from "@/comModel/httpSelect";
+const searchColumns = [
+  {
+    id: "dealingsCompany",
+    label: "往来单位：",
+    ...httpAllDealingCompanySelect(),
+  },
+  {
+    id: "orderNum",
+    label: "工作单号：",
+    placeholder: "请输入",
+    type: "text",
+  },
+  {
+    id: "businessType",
+    label: "业务类型：",
+    placeholder: "请选择",
+    type: "select",
+    basicType: "settlementBusinessType",
+  },
+  {
+    id: "deptId",
+    label: "所属公司：",
+    ...httpDeptSelect(),
+  },
+  {
+    id: "billingMain",
+    label: "记账主体：",
+    selectLabelKey: "billingMainName",
+    ...httpLogisticsCustomerSelect(),
+  },
+  {
+    id: "salesman",
+    label: "业务员：",
+    ...httpRoleDeptUserSelect(),
+  },
+];
+
+const tableColumns = [
+  {
+    type: "index",
+    width: 50,
+    align: "center",
+  },
+  {
+    prop: "orderNum",
+    label: "工作单号",
+    customRow: true,
+    minWidth: 170,
+    showOverflowTooltip: true,
+    sortable: true,
+    align: "left",
+  },
+  {
+    prop: "dealingsCompanyName",
+    label: "往来单位",
+    sortable: true,
+    minWidth: 120,
+    showOverflowTooltip: true,
+    align: "left",
+  },
+  {
+    prop: "businessType",
+    label: "关联业务",
+    sortable: true,
+    minWidth: 100,
+    basicType: "settlementBusinessType",
+    className: "border-right",
+    showOverflowTooltip: true,
+    align: "left",
+  },
+  {
+    prop: "billInfo",
+    label: "已对账信息",
+    multiHeader: true,
+    className: "border-right",
+    list: [
+      {
+        label: "票数",
+        prop: "accountNum",
+        width: 120,
+        sortable: true,
+        align: "right",
+      },
+      {
+        label: "折合应收/¥",
+        prop: "accountAR",
+        width: 130,
+        sortable: true,
+        decimal: 2,
+        colFormat: "thousandthMark",
+        align: "right",
+      },
+      {
+        label: "折合应付/¥",
+        prop: "accountAP",
+        width: 130,
+        sortable: true,
+        decimal: 2,
+        colFormat: "thousandthMark",
+        className: "border-right",
+        align: "right",
+      },
+    ],
+  },
+  {
+    prop: "forBillInfo",
+    label: "待对账信息",
+    multiHeader: true,
+    className: "border-right",
+    list: [
+      {
+        label: "票数",
+        prop: "unAccountNum",
+        width: 120,
+        sortable: true,
+        align: "right",
+      },
+      {
+        label: "折合应收/¥",
+        prop: "unAccountAR",
+        width: 130,
+        sortable: true,
+        decimal: 2,
+        colFormat: "thousandthMark",
+        align: "right",
+      },
+      {
+        label: "折合应付/¥",
+        prop: "unAccountAP",
+        width: 130,
+        sortable: true,
+        decimal: 2,
+        colFormat: "thousandthMark",
+        className: "border-right",
+        align: "right",
+      },
+    ],
+  },
+  {
+    prop: "billingMainName",
+    label: "记账主体",
+    showOverflowTooltip: true,
+    minWidth: 100,
+    sortable: true,
+  },
+  {
+    prop: "salesmanName",
+    label: "业务员",
+    showOverflowTooltip: true,
+    minWidth: 120,
+    sortable: true,
+  },
+  {
+    prop: "dept",
+    label: "所属公司",
+    showOverflowTooltip: true,
+    minWidth: 120,
+    sortable: true,
+  },
+];
+
+export { searchColumns, tableColumns };

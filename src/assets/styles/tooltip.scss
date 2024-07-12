@@ -1,0 +1,25 @@
+//操作单订单浮窗popper-class="atooltip"   去掉effect生效
+.atooltip {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b8b8b !important;
+  line-height: 20px;
+  border-radius: 4px;
+  max-width: 310px;
+}
+
+.atooltip[x-placement^="bottom"] .popper__arrow::after {
+  top: 1px;
+  margin-left: -5px;
+  border-top-width: 10;
+  border-bottom-color: #ffffff;
+}
+
+.atooltip[x-placement^="bottom"] .popper__arrow {
+  top: -6px;
+  border-top-width: 0;
+  border-bottom-color: #ffffff;
+}

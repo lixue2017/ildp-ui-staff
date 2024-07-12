@@ -1,0 +1,27 @@
+/deep/ {
+  .form-left {
+    width: 378px;
+    float: left;
+    padding-top: 20px;
+    border-left: 10px solid #fff;
+    border-right: 3px solid #ff813d;
+    background: rgba(255, 129, 61, 0.1);
+    border-radius: 4px 2px 2px 4px;
+    margin-bottom: 20px;
+
+    &::after {
+      content: "";
+      width: 100%;
+      border-bottom: 1px solid #e2e2e2;
+      transform: translateY(20px);
+    }
+  }
+
+  .form-right {
+    width: calc(100% - 354px);
+    float: right;
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+  }
+}

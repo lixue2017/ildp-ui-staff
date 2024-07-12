@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="30px" viewBox="0 0 22 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>第三名</title>
+    <defs>
+        <polygon id="path-1" points="0 0 22 0 22 30 0 30"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#D6907C" offset="0%"></stop>
+            <stop stop-color="#F0C2B5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M21.1915,25.9158407 L11.2838,19.5499185 C11.1111,19.4392211 10.88945,19.4392211 10.71675,19.5499185 L0.8085,25.9158407 C0.45925,26.1405397 0,25.8888548 0,25.4736021 L0,0.525949973 C0,0.235713705 0.2354,0 0.52525,0 L21.4753,0 C21.76515,0 22,0.235713705 22,0.525949973 L22,25.4736021 C22,25.8888548 21.54075,26.1405397 21.1915,25.9158407" id="path-4"></path>
+        <filter x="-31.8%" y="-19.2%" width="163.6%" height="153.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.831372549   0 0 0 0 0.552941176   0 0 0 0 0.474509804  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="客户端-定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="客户首页" transform="translate(-303.000000, -379.000000)">
+            <g id="编组-35备份-2" transform="translate(279.000000, 242.000000)">
+                <g id="编组-247" transform="translate(24.000000, 64.000000)">
+                    <g id="第三名" transform="translate(0.000000, 73.000000)">
+                        <g id="编组">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <g id="Fill-1" mask="url(#mask-2)">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            </g>
+                        </g>
+                        <text id="3" font-family="PingFangSC-Medium, PingFang SC" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="6" y="17">3</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

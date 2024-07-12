@@ -1,0 +1,75 @@
+// base color
+$blue: #324157;
+$red: #C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow: #FEC171;
+$panGreen: #30B08F;
+$tabBtnTxt: #515151; // 切换按钮文字颜色
+$tabBtnBorder: #BCBCBC; // 切换按钮边框颜色
+$divisionBorder: #E2E2E2; // 分隔线
+$tableDelBtn: #606060; // 列表删除按钮颜色
+$disableBtnTxt: #919191; // 禁止点击按钮文字颜色
+$radioisCheckedOn: #FFFFFF; //radio选中图标外圈颜色
+$radioisCheckedIn: #5094FF; //radio选中图标内圈颜色
+
+
+// 仓库管理 -> 上架
+$putshelf_borderColor_1: rgba(188, 188, 188, 0.6);
+$putshelf_textColor_1: #8B8B8B;
+$putshelf_bgColor_1: #FFFFFF;
+
+$putshelf_borderColor_2: rgba(80, 148, 255, 0.6);
+$putshelf_bgColor_2: rgba(80, 148, 255, 0.1);
+$putshelf_textColor_2: #5094FF;
+
+$putshelf_borderColor_3: rgba(83, 200, 138, 0.6);
+$putshelf_bgColor_3: rgba(83, 200, 138, 0.1);
+$putshelf_textColor_3: #53C88A;
+
+$putshelf_borderColor_4: rgba(80, 148, 255, 0.6);
+$putshelf_bgColor_4: rgba(80, 148, 255, 0.6);
+$putshelf_textColor_4: #FFFFFF;
+
+$putshelf_borderColor_5: rgba(83, 200, 138, 0.6);
+$putshelf_bgColor_5: rgba(83, 200, 138, 0.6);
+$putshelf_textColor_5: #FFFFFF;
+
+// sidebar
+$menuText: #393939;
+$menuActiveText: #fff;
+$subMenuActiveText: #fff; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg: #fff;
+$menuHover: #00ADB2;
+
+$subMenuBg: #F8F8F8;
+$subMenuHover: #00ADB2;
+
+$sideBarWidth: 260px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
+
+// 客户版
+$orange: #ff813d;
+
+//员工版
+$light-blue: #00adb2;
+
+$text-btn-primary: #5094ff;
+
+$text-btn-danger: #FA7A7A;
+
+$text-btn-warning: #FF813D;

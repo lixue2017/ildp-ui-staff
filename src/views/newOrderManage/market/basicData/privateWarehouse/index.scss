@@ -1,0 +1,31 @@
+.dialog-form {
+  padding-right: 30px;
+}
+
+.dialog-form {
+  padding-right: 30px;
+}
+
+/deep/ .el-dialog__body {
+  padding-bottom: 0;
+}
+
+.historical-records {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+
+  .historical-records-title {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #1f1f1f;
+  }
+
+  .historical-records-sub {
+    color: #666;
+
+    i {
+      margin-right: 3px;
+    }
+  }
+}

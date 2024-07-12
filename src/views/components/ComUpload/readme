@@ -1,0 +1,50 @@
+```
+//参数设置
+type - text/picture/picture-card
+className - 设置特殊样式
+uploadData - 上传附带参数
+imgUrl - type为picture时图片/文件回显地址
+fileFormat - 上传文件格式大小相关设置
+
+
+//不同类型时参数设置
+type = text
+uploadConfig:{
+    type: "text",
+    className: "text-uploader",
+    fileList: [],
+    limit: 10,
+    size: 100,
+    multiple: true,
+    accept: ".rar,.zip,.doc,.docx,.xls,.xlsx,.pdf,.jpg,.png",
+    text: {
+      btnText: "上传文件",
+    },
+}
+
+
+type = picture
+uploadConfig:{
+    type: "picture",
+    className: "uploader",
+    showFileList: false,
+    limit: 1000
+}
+
+
+默认：type = picture-card
+uploadConfig:{
+
+}
+
+//插槽
+<slot name="otherType" />
+
+//使用demo
+<ComUpload :uploadConfig="uploadConfig"> </ComUpload>   -  template
+import { defaultParams } from "_comp/ComUpload/model";  - 引入
+uploadConfig: {
+  ...defaultParams,                                     - 配置参数
+  fileList: []
+}
+```

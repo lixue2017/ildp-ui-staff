@@ -1,0 +1,94 @@
+.app-container.detail-container {
+  padding: 0;
+  margin-bottom: 70px;
+
+  /deep/ {
+    .com-detail-top {
+      margin: 0 32px;
+    }
+  }
+
+  .title-col {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 50px 22px;
+    color: #515151;
+
+    .title {
+      font-weight: 600;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #515151;
+    }
+
+    .create-info {
+      flex: 1;
+      color: #606060;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #f3f3f3;
+
+      & > span {
+        margin-left: 20px;
+      }
+
+      .label {
+        font-size: 12px;
+        color: #8b8b8b;
+      }
+    }
+
+    .back {
+      padding-bottom: 6px;
+      border-bottom: 1px solid #f3f3f3;
+      color: #7d7d7d;
+      cursor: pointer;
+    }
+  }
+
+  /deep/ {
+    .form-class .border-bottom-solid::after {
+      padding-top: 14px;
+    }
+
+    .business-remark .el-form-item .el-form-item__label {
+      margin-top: 0;
+    }
+  }
+
+  .order-form {
+    padding: 0 32px 30px;
+
+    /deep/ {
+      .form-class .border-bottom-solid::after {
+        padding-top: 14px;
+      }
+
+      .el-form-item--small.el-form-item {
+        margin-bottom: 0;
+      }
+
+      .border-top-solid::before {
+        margin: 14px 0;
+      }
+    }
+  }
+
+  .remark {
+    margin-top: 20px;
+
+    .title {
+      height: 52px;
+      line-height: 52px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  .content {
+    display: flex;
+
+    .order-left {
+      min-width: 900px;
+      flex: 0 1 100%;
+    }
+  }
+}

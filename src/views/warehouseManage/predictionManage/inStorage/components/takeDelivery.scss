@@ -1,0 +1,162 @@
+.take-delivery {
+  background: #f9f9f9;
+  padding: 0px 0 20px;
+  margin: 10px;
+
+  .content-box {
+    min-height: calc(100vh - 108px);
+    margin: auto;
+    background: #fff;
+    padding: 0 20px 100px;
+
+    &>.title {
+      color: #515151;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .received-title {
+      color: #515151;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: flex-start;
+      // border-bottom: 1px solid #e2e2e2;
+			&.top-title {
+				padding-top: 15px;
+			}
+
+      .title {
+        color: #515151;
+        font-weight: bold;
+        margin-right: 30px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #515151;
+      }
+    }
+
+    .header-info {
+      // padding: 6px 0;
+      // border-bottom: 1px solid #e2e2e2;
+
+      /deep/.el-form-item {
+        margin-bottom: 0;
+      }
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: space-between;
+			padding: 14px 0px;
+			margin-bottom: 14px;
+			border-bottom: 1px solid #e2e2e2;
+
+      .tabs {
+				border-bottom: none;
+				div {
+					float: left;
+					margin-right: 5px;
+				}
+			}
+
+      // .tabs-btn {
+      //   color: #515151;
+
+      //   &:hover,
+      //   &:focus {
+      //     color: #5094ff;
+      //   }
+
+      //   &.isActive {
+      //     color: #5094ff;
+      //     border-color: #5094ff;
+      //   }
+      // }
+
+      .reminder {
+        // position: relative;
+        // top: 3px;
+        // font-size: 12px;
+        // color: #bcbcbc;
+        // margin-left: 5px;
+
+        // .icon-tishi {
+        //   position: relative;
+        //   top: 1.5px;
+        //   color: #ff985c;
+        // }
+        display: flex;
+        align-items: center;
+        color: #5094ff
+      }
+    }
+  }
+
+  /deep/ {
+    .el-radio {
+      margin-right: 15px;
+
+      .el-radio__label {
+        padding-left: 4px;
+      }
+    }
+
+    .figure-type .el-input__inner {
+      padding: 0 0 0 15px;
+    }
+
+    .marking {
+      width: 66px;
+      height: 19px;
+      text-align: center;
+      background: rgba(83, 200, 138, 0.6);
+      border-radius: 0px 0px 11px 0px;
+      color: #ffffff;
+      font-size: 12px;
+    }
+
+    .first-instorage .el-table__cell {
+      position: relative;
+      padding: 22px 0 10px;
+
+      .marking {
+        position: absolute;
+        top: 0;
+        left: -50px;
+      }
+    }
+
+    .hide-operation {
+      color: #5094ff;
+      margin-left: 10px;
+    }
+
+    .count-txt {
+      display: inline-block;
+      width: 60px;
+      text-align: center;
+    }
+
+    .inventory-method {
+      display: flex;
+
+      .method {
+        width: 75px;
+        align-self: center;
+      }
+    }
+
+    .freight-rows {
+      margin-top: 5px;
+    }
+  }
+
+  // /deep/ {收货的所有情况现在都需要可以全选
+  //   .el-table__header-wrapper .el-checkbox {
+  //     display: none !important;
+  //   }
+  // }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="41px" viewBox="0 0 43 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>空闲数</title>
+    <defs>
+        <linearGradient x1="-4.83085794e-12%" y1="1.74166237e-13%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E6FFF2" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E1FFEF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="员工端-定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D1-排货柜信息" transform="translate(-1832.000000, -157.000000)">
+            <g id="编组-13" transform="translate(216.000000, 14.000000)">
+                <g id="编组-7" transform="translate(20.000000, 0.000000)">
+                    <g id="编组-184" transform="translate(1034.000000, 0.000000)">
+                        <g id="空闲数" transform="translate(562.000000, 143.000000)">
+                            <circle id="椭圆形" fill-opacity="0.6" fill="#53C88A" cx="30.5" cy="28.5" r="12.5"></circle>
+                            <g id="34模板、框架-线性" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                                <path d="M33.5416667,0 L1.45833333,0 C0.65625,0 0,0.65625 0,1.45833333 L0,33.5416667 C0,34.34375 0.65625,35 1.45833333,35 L33.5416667,35 C34.34375,35 35,34.34375 35,33.5416667 L35,1.45833333 C35,0.65625 34.34375,0 33.5416667,0 Z M32.0833333,2.91666667 L32.0833333,8.75 L2.91666667,8.75 L2.91666667,2.91666667 L32.0833333,2.91666667 Z M2.91666667,11.6666667 L8.75,11.6666667 L8.75,32.0833333 L2.91666667,32.0833333 L2.91666667,11.6666667 Z M11.6666667,32.0833333 L11.6666667,11.6666667 L32.0833333,11.6666667 L32.0833333,32.0833333 L11.6666667,32.0833333 Z" id="形状"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

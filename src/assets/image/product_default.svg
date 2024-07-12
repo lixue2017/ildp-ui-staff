@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="50px" viewBox="0 0 64 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 42</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="64" height="50" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="64" height="50" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="堡森三通智慧物流系统设计稿（已定稿）" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-42">
+            <use id="矩形" stroke="#DADADA" mask="url(#mask-2)" stroke-width="2" fill="#F9F9F9" stroke-linecap="round" stroke-dasharray="4" xlink:href="#path-1"></use>
+            <g id="默认图" transform="translate(12.000000, 9.000000)" fill="#B0B0B0" fill-rule="nonzero">
+                <path d="M0,0 L0,32 L40,32 L40,0 L0,0 L0,0 Z M37.5,29.5384615 L2.49999997,29.5384615 L2.49999997,2.46153844 L37.5,2.46153844 L37.5,29.5384615 L37.5,29.5384615 Z M27.5,8.61540723 C27.5,10.6544438 29.1784827,12.3077375 31.250023,12.3077375 C33.3215172,12.3077375 35.0000459,10.6544438 35.0000459,8.61540723 C35.0000459,6.57637066 33.3215172,4.92371068 31.250023,4.92371068 C29.1784827,4.92371068 27.5,6.57637066 27.5,8.61540723 L27.5,8.61540723 Z M35,27.0763346 L4.99999999,27.0763346 L12.5,7.38461536 L22.5,19.6923077 L27.5,15.9999774 L35,27.0763346 L35,27.0763346 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

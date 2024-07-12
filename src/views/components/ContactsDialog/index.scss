@@ -1,0 +1,45 @@
+.dialog-form {
+  padding-right: 30px;
+}
+
+/deep/ {
+  .el-dialog__body {
+    padding-bottom: 0;
+  }
+
+  .historical-records {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+    .historical-records-title {
+      font-size: 16px;
+      margin-right: 21px;
+      color: #515151;
+    }
+
+    .historical-records-sub {
+      color: #666;
+
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .input-slot {
+    .el-select .el-input {
+      .el-input__inner {
+        width: 74px;
+      }
+    }
+
+    .input-slot-right {
+
+      .el-select .el-input .el-input__inner,
+      .el-input__inner {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>实付</title>
+    <g id="员工端-定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="B3员工门户（财务）" transform="translate(-330.000000, -965.000000)">
+            <g id="编组-22" transform="translate(240.000000, 615.000000)">
+                <g id="编组-17" transform="translate(24.000000, 64.000000)">
+                    <g id="编组-21" transform="translate(4.500000, 283.000000)">
+                        <g id="编组-18备份-2" transform="translate(61.500000, 0.000000)">
+                            <g id="实付" transform="translate(0.000000, 3.000000)">
+                                <polygon id="矩形" fill-opacity="0.6" fill="#A3C7FF" points="0 0 8 4.33076333 16 0 16 12 0 12"></polygon>
+                                <path d="M16,0 L16,12 L0,12 L0,0 L8,4.33076333 L16,0 Z M15,11 L15,1.678 L8,5.46788903 L1,1.678 L1,11 L15,11 Z" id="矩形" fill="#5094FF" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

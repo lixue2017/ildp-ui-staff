@@ -1,0 +1,93 @@
+// 草稿：#FF813D   
+// 其他状态：#5094FF 
+// 已完结：#515151
+
+.draft-state {
+  color: #FFA51B;
+}
+
+.primary-text-color {
+  color: #5094ff;
+}
+
+.black-text-color {
+  color: #515151;
+}
+
+.grey-text-color {
+  color: #8B8B8B;
+}
+
+.grey-tip-color {
+  color: #BCBCBC;
+}
+
+.tag-green-color {
+  display: inline-block;
+  padding: 2px 13px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 17px;
+  height: 21px;
+  color: #35D06F;
+  background: rgba(33, 194, 93, 0.1000);
+  white-space: nowrap;
+}
+
+.tag-blue-color {
+  display: inline-block;
+  padding: 2px 13px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 17px;
+  height: 21px;
+  color: #66A5FF;
+  background: rgba(102, 165, 255, 0.1000);
+  white-space: nowrap;
+}
+
+.tag-grey-color {
+  display: inline-block;
+  padding: 2px 13px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 17px;
+  height: 21px;
+  color: #8B8B8B;
+  background: rgba(139, 139, 139, 0.1000);
+  white-space: nowrap;
+}
+
+.tag-yellow-color {
+  display: inline-block;
+  padding: 2px 13px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 17px;
+  height: 21px;
+  color: #FF813D;
+  background: rgba(255,129,61,0.1);
+  white-space: nowrap;
+}
+
+.pink-text-color {
+  color: #FF6767;
+}
+
+.green-text-color {
+  color: #53c88a;
+}
+
+// 清关列表 DO/POD
+.tag-do-pod {
+  display: inline-block;
+  padding: 4px 15px;
+  line-height: 18px;
+  height: 26px;
+  border-radius: 14px;
+
+}
+
+.font-bold {
+  font-weight: bold;
+}

@@ -1,0 +1,74 @@
+/deep/ .update-img {
+  //企业管理新增修改的上传公司LOGO样式
+  padding-left: 20px;
+  padding-right: 10px;
+  // float: left;
+  height: 116px;
+
+  .el-upload-dragger {
+    width: 134px;
+    height: 134px;
+    background: #ebebeb;
+
+    .el-icon-plus {
+      font-size: 50px;
+      font-weight: bold;
+      padding-top: 40px;
+      color: #818181;
+    }
+
+    .el-upload__text {
+      font-size: 12px;
+      line-height: 20px;
+      color: #919191;
+    }
+
+    .avatar {
+      width: 72px;
+      height: 72px;
+    }
+  }
+
+
+  .el-upload__tips {
+    color: #BCBCBC;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 12px;
+    // line-height: initial;
+  }
+}
+
+.drawer-content {
+
+  //修改企业管理列表新增修改的抽屉样式
+  /deep/ {
+    font-size: 14px;
+
+    .el-drawer__header {
+      margin-bottom: 0px;
+      background-color: #f4f4f4;
+
+      span {
+        font-size: 14px;
+        color: #515151;
+        font-weight: bold;
+      }
+    }
+
+    .el-drawer__body {
+      .form-title {
+        border-left: none;
+      }
+    }
+
+    .drawer-footer {
+      background-color: #f4f4f4;
+
+      button {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}
